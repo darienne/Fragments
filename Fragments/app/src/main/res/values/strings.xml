@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Fragments</string>
-    <string name="Frag">Testing Frag</string>
+    <string name="Bottom">Bottom</string>
+    <string name="Top">Top</string>
 </resources>
