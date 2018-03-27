@@ -2,4 +2,6 @@
     <string name="app_name">Fragments</string>
     <string name="Bottom">Bottom</string>
     <string name="Top">Top</string>
+    <string name="middle1">Middle1</string>
+    <string name="middle2">Middle2</string>
 </resources>
