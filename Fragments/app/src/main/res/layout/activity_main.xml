@@ -1,8 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<fragment xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/fragment"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dar.fragments.MainActivity">
+
+    <fragment
+        android:id="@+id/player_prompt"
         android:name="com.example.dar.fragments.FragmentActivity"
-        tools:layout="@layout/activity_main"
+        android:layout_height="0dp"
+        android:layout_weight="3"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        tools:layout="@layout/fragment_player_prompt"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:background="#F00F"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:background="#F0F1"
+            android:layout_height="0dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="#F0F1"
+            android:layout_height="0dp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
