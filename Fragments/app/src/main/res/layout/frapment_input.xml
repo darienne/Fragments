@@ -11,6 +11,10 @@
             style="@style/editTextStyle"
             android:imeOptions="actionDone"
             />
-        
+
+        <Button style="@style/editTextStyle"
+            android:text="Submit"
+            android:onClick="play"/>
+
     </LinearLayout>
 </LinearLayout>
