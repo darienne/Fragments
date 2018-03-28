@@ -15,7 +15,7 @@ public class RandomNumberFrag extends Fragment
     Random rand = new Random(System.currentTimeMillis());
 
     /**
-     * getNumber will return the number 1-100. 
+     * getNumber will return the number 1-100.
      * @return
      */
     public int getNumber()

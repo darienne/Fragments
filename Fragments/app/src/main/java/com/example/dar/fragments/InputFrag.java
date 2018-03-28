@@ -7,7 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by seanr on 3/27/2018.
+ * InputFrag extends Fragment which then gets and return the view of the fragment_input.
+ * Created by Group 3-1 on 3/27/2018.
  */
 
 public class InputFrag extends Fragment

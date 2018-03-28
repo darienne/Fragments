@@ -2,12 +2,11 @@ package com.example.dar.fragments;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 /**
+ * FragmentActivity extends Fragment which then gets and return the view of the fragment_player_prompt.
  * Created by Dar on 3/25/2018.
  */
 
