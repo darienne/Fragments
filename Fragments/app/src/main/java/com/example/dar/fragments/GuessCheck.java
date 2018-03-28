@@ -12,7 +12,7 @@ public class GuessCheck
     int randomNumber;
 
     /**
-     * GuessCheck contains an integer randomNumber which will set RandomNumber.
+     * GuessCheck contains an integer randomNumber which setRandomNuber will have a param randomNumber.
      * @param randomNumber
      */
     public GuessCheck(int randomNumber)
@@ -29,9 +29,18 @@ public class GuessCheck
         randomNumber = number;
     }
 
+    /**
+     * getRandomNumber will return randomNumber.
+     * @return
+     */
     public int getRandomNumber(){return randomNumber;}
 
 
+    /**
+     * checkGuess will have an if else statement that will determine if the users number entered is correct or off by a little, to much, or not even close.
+     * @param guess
+     * @return
+     */
     public String  checkGuess(int guess)
     {
         if(guess >= 1 ||  guess <= 100)
