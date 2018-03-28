@@ -24,5 +24,4 @@ public class FragmentActivity extends Fragment {
                 container, false );
 
     }
-
 }

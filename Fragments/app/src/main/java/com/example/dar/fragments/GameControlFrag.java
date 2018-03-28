@@ -19,9 +19,7 @@ public class GameControlFrag extends Fragment
 
     public int getNumber()
     {
-        Log.i("what", " " + number);
+        Log.i("gameControlGetNumber", " " + number);
         return number;
     }
-
-
 }

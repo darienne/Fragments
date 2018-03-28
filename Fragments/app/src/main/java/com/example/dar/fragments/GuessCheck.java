@@ -41,8 +41,4 @@ public class GuessCheck
 
         return "Not even close!";
     }
-
-
-
-
 }

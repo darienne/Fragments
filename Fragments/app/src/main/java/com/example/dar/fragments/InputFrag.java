@@ -20,7 +20,4 @@ public class InputFrag extends Fragment
         return inflater.inflate( R.layout.frapment_input,
                 container, false );
     }
-
-
-
 }

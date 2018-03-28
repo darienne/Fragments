@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity
     private GuessCheck guessCheck;
     private RandomNumberFrag number;
     private GameControlFrag game;
-    private InputFrag input;
 
     @Override
     public void onCreate(Bundle savedInstanceState)
@@ -25,16 +24,12 @@ public class MainActivity extends AppCompatActivity
         super.onCreate( savedInstanceState );
         number = new RandomNumberFrag();
 
-
         if(guessCheck == null)
         {
             guessCheck = new GuessCheck(number.getNumber());
-            Log.i("randomNumber ", " " + guessCheck.getRandomNumber());
+            Log.i("OnCreate randomNumber ", " " + guessCheck.getRandomNumber());
         }
         setContentView( R.layout.activity_main );
-
-
-
     }
 
     public void play(View view)
@@ -43,12 +38,10 @@ public class MainActivity extends AppCompatActivity
         EditText edit = findViewById(R.id.guessEditText);
         TextView tv = findViewById(R.id.player_promptTV);
 
-
         String number = edit.getText().toString();
         int guessNumber = Integer.parseInt(number);
         game.setNumber(guessNumber);
         tv.setText(guessCheck.checkGuess(game.getNumber()));
-        Log.i("sadf", "" + guessCheck.getRandomNumber());
-
+        Log.i("play RandomNumber", "" + guessCheck.getRandomNumber());
     }
 }
