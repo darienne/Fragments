@@ -8,4 +8,23 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="wrapCenterWeight1">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="textViewStyle" parent="android:style/TextAppearance">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">42sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#f2f2f2</item>
+    </style>
+n
+    <style name="editTextStyle" parent="textViewStyle">
+        <item name="android:inputType">number</item>
+        <item name="android:hint">Enter Guess</item>
+    </style>
 </resources>

@@ -41,13 +41,4 @@
         android:background="@color/colorYellow"
         android:text="@string/middle2" />
 
-    <TextView
-        android:id="@+id/BottomFragment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="75dp"
-        android:background="@color/colorGreen"
-        android:text="@string/Bottom" />
 </RelativeLayout>

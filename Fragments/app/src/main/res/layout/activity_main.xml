@@ -22,27 +22,28 @@
         android:layout_width="match_parent" >
 
         <LinearLayout
+            android:id="@+id/player_input"
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:background="#F00F"
+            android:background="#333333"
             android:layout_weight="1"
             android:layout_height="match_parent" />
 
         <LinearLayout
+            android:id="@+id/game_control"
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:background="#F0F1"
+            android:background="#254327"
             android:layout_height="0dp" />
 
         <LinearLayout
+            android:id="@+id/rng"
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_weight="1"
-            android:background="#F0F1"
+            android:background="#38c641"
             android:layout_height="0dp" />
 
     </LinearLayout>
-
-
 
 </LinearLayout>

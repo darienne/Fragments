@@ -3,7 +3,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FF01"
-    android:orientation="horizontal">
+    android:background="#4d4d4d"
+    android:orientation="vertical">
+
+    <LinearLayout style="@style/wrapCenterWeight1">
+
+        <TextView style="@style/textViewStyle"
+            android:id="@+id/player_promptTV"
+            android:text="@string/prompt"/>
+    </LinearLayout>
 
 </LinearLayout>
