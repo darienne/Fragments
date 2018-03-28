@@ -18,6 +18,11 @@ public class MainActivity extends AppCompatActivity
     private RandomNumberFrag number;
     private GameControlFrag game;
 
+    /**
+     * number is going to get new RandomNumberFrag.
+     * if guesscheck == null then guesscheck is going to get new guesscheck with number.
+     * @param savedInstanceState
+     */
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
@@ -32,6 +37,11 @@ public class MainActivity extends AppCompatActivity
         setContentView( R.layout.activity_main );
     }
 
+    /**
+     * Play is going to have a new GameControlFrag that is under game. EditText guessEditText, TextView player_promptTV.
+     * Create a string for number to get text. 
+     * @param view
+     */
     public void play(View view)
     {
         game = new GameControlFrag();
