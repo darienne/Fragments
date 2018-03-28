@@ -1,6 +1,7 @@
 package com.example.dar.fragments;
 
 import android.app.Fragment;
+import android.util.Log;
 
 /**
  * Created by seanr on 3/27/2018.
@@ -8,9 +9,19 @@ import android.app.Fragment;
 
 public class GameControlFrag extends Fragment
 {
+    int number;
     public GameControlFrag(){}
 
+    public void setNumber(int number)
+    {
+        this.number = number;
+    }
 
+    public int getNumber()
+    {
+        Log.i("what", " " + number);
+        return number;
+    }
 
 
 }

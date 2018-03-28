@@ -18,6 +18,8 @@ public class GuessCheck
         randomNumber = number;
     }
 
+    public int getRandomNumber(){return randomNumber;}
+
 
     public String  checkGuess(int guess)
     {
@@ -27,11 +29,11 @@ public class GuessCheck
             {
                 return "You got it!";
             }
-            else if (guess >=  randomNumber)
+            else if (guess <=  randomNumber)
             {
                 return "Too low!";
             }
-            else if(guess <= randomNumber)
+            else if(guess >= randomNumber)
             {
                 return "Too High!";
             }

@@ -11,7 +11,7 @@ public class RandomNumberFrag extends Fragment
 {
     public RandomNumberFrag(){}
 
-    Random rand = new Random(0);
+    Random rand = new Random(System.currentTimeMillis());
 
     public int getNumber()
     {
